@@ -6,4 +6,11 @@
   &--inline {
     border: none;
   }
+
+  &--scroll {
+    bottom: 25px;
+    right: 25px;
+    position: fixed;
+    display: none;
+  }
 }

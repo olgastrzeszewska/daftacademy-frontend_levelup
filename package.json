@@ -1,7 +1,7 @@
 {
   "name": "daftacademy",
   "version": "1.0.0",
-  "description": "Project based on Marta Starnawska code",
+  "description": "Project based on Marta Starnawska html scss code",
   "private": true,
   "main": "index.js",
   "scripts": {
