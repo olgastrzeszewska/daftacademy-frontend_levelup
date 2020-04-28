@@ -1,0 +1,32 @@
+
+.stall {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 5px;
+
+  &--small {
+    padding: 10px;
+  }
+
+  &__picture {
+    object-fit: cover;
+    max-width: 100%;
+  }
+
+  &__description {
+    position: absolute;
+    left: 30px;
+    top: 25px;
+    line-height: 1.5;
+
+    &--bottom {
+      top: unset;
+      bottom: 25px;
+    }
+  }
+
+  &__title {
+    font-size: 1.2em;;
+  }
+}
